@@ -1,2 +1,0 @@
-# DupePetSimX
-Dupe pet
