@@ -74,6 +74,7 @@ StartDupe.TextColor3 = Color3.fromRGB(0, 0, 0)
 StartDupe.TextScaled = true
 StartDupe.TextSize = 14.000
 StartDupe.TextWrapped = true
+
 StartDupe.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/HackerXD297/DupePetSimX/main/Dupeload'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/HackerXD297/DupePetSimX/main/DuepScript.lua'))()
 end)
