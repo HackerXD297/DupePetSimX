@@ -24,7 +24,7 @@ DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
 DupedMethodMadeByPr4ston.Position = UDim2.new(-0.000352235977, 0, 0, 0)
 DupedMethodMadeByPr4ston.Size = UDim2.new(0, 215, 0, 56)
 DupedMethodMadeByPr4ston.Font = Enum.Font.SourceSans
-DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Pr4ston"
+DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Night Bot"
 DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
 DupedMethodMadeByPr4ston.TextSize = 14.000
 
