@@ -1,52 +1,79 @@
-local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
-local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
-local RESET = Instance.new("TextButton")
-local _10Minutes = Instance.new("TextButton")
-local _20Minutes = Instance.new("TextButton")
-local _30Minutes = Instance.new("TextButton")
+-- Instances:
+
+local Dupe = Instance.new("ScreenGui")
+local DupeFrame = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Warning = Instance.new("TextLabel")
+local Workon = Instance.new("TextLabel")
+local StartDupe = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+Dupe.Name = "Dupe"
+Dupe.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-main.Name = "main"
-main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
-main.Position = UDim2.new(0.0659062043, 0, 0.186878726, 0)
-main.Size = UDim2.new(0, 214, 0, 260)
-main.Active = true
-main.Draggable = true
+DupeFrame.Name = "DupeFrame"
+DupeFrame.Parent = Dupe
+DupeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DupeFrame.BackgroundTransparency = 1.000
+DupeFrame.Position = UDim2.new(0.27421236, 0, 0.239089191, 0)
+DupeFrame.Size = UDim2.new(0, 387, 0, 223)
+DupeFrame.Image = "rbxassetid://3570695787"
+DupeFrame.ImageColor3 = Color3.fromRGB(88, 88, 88)
+DupeFrame.ImageTransparency = 0.400
+DupeFrame.ScaleType = Enum.ScaleType.Slice
+DupeFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+DupeFrame.SliceScale = 0.120
 
-DupedMethodMadeByPr4ston.Name = "Duping Method | Made By Night Bot"
-DupedMethodMadeByPr4ston.Parent = main
-DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
-DupedMethodMadeByPr4ston.Position = UDim2.new(-0.000352235977, 0, 0, 0)
-DupedMethodMadeByPr4ston.Size = UDim2.new(0, 215, 0, 56)
-DupedMethodMadeByPr4ston.Font = Enum.Font.SourceSans
-DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Night Bot"
-DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
-DupedMethodMadeByPr4ston.TextSize = 14.000
+Title.Name = "Title"
+Title.Parent = DupeFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0232558139, 0, 0.0358744413, 0)
+Title.Size = UDim2.new(0, 369, 0, 42)
+Title.Font = Enum.Font.Arcade
+Title.Text = "Night Hub"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
 
-RESET.Name = "RESET"
-RESET.Parent = main
-RESET.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
-RESET.Size = UDim2.new(0, 214, 0, 50)
-RESET.Font = Enum.Font.SourceSans
-RESET.Text = "RESET"
-RESET.TextColor3 = Color3.fromRGB(0, 0, 0)
-RESET.TextSize = 40.000
+Warning.Name = "Warning"
+Warning.Parent = DupeFrame
+Warning.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Warning.BackgroundTransparency = 1.000
+Warning.Position = UDim2.new(0.0981912166, 0, 0.224215239, 0)
+Warning.Size = UDim2.new(0, 310, 0, 50)
+Warning.Text = "Warning"
+Warning.TextColor3 = Color3.fromRGB(255, 0, 0)
+Warning.TextSize = 26.000
+Warning.TextWrapped = true
 
-_30Minutes.Name = "30 Minutes"
-_30Minutes.Parent = main
-_30Minutes.BackgroundColor3 = Color3.fromRGB(0, 71, 0)
-_30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
-_30Minutes.Size = UDim2.new(0, 213, 0, 65)
-_30Minutes.Font = Enum.Font.SourceSans
-_30Minutes.Text = "30 Minutes"
-_30Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
-_30Minutes.TextSize = 46.000
-_30Minutes.MouseButton1Down:connect(function()
+Workon.Name = "Workon"
+Workon.Parent = DupeFrame
+Workon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Workon.BackgroundTransparency = 1.000
+Workon.Position = UDim2.new(0.0981912166, 0, 0.385650218, 0)
+Workon.Size = UDim2.new(0, 310, 0, 50)
+Workon.Text = "Work on Exclusive/Huge/Mythical/Legendary"
+Workon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Workon.TextScaled = true
+Workon.TextSize = 14.000
+Workon.TextStrokeTransparency = 0.000
+Workon.TextWrapped = true
+
+StartDupe.Name = "StartDupe"
+StartDupe.Parent = DupeFrame
+StartDupe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StartDupe.BackgroundTransparency = 0.700
+StartDupe.Position = UDim2.new(0.258397937, 0, 0.654708505, 0)
+StartDupe.Size = UDim2.new(0, 200, 0, 50)
+StartDupe.Font = Enum.Font.Arcade
+StartDupe.Text = "Start Dupe"
+StartDupe.TextColor3 = Color3.fromRGB(0, 0, 0)
+StartDupe.TextScaled = true
+StartDupe.TextSize = 14.000
+StartDupe.TextWrapped = true
+StartDupe.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/HackerXD297/DupePetSimX/main/Dupeload'))()
 end)
